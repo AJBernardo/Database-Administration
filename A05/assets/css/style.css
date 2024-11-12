@@ -16,7 +16,7 @@ body{
 .header{
     max-width: 95%;
     height: 200px;
-    background: url(assets/img/heart.gif) center / cover no-repeat;
+    background: url(../img/heart.gif) center / cover no-repeat;
     object-fit: fill;
     border-radius: 20px;
     color: black;
