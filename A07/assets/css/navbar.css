@@ -1,0 +1,47 @@
+.navbar {
+    background-color: #a73333;
+    margin: 0px;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+i {
+    font-size: 35px;
+    color: white;
+    margin-inline: 10px;
+    cursor: pointer;
+}
+
+.profilePic {
+    width: 50px;
+    max-height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-top: 5px;
+}
+
+.menu{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+@media (max-width: 576px) {
+    .profilePic {
+        width: 40px;
+        max-height: 40px;
+    }
+    .menu, .branding{
+        display: flex;
+        justify-content: center;
+    }
+
+    .profile{
+        display: flex;
+        justify-content: start;
+    }
+}
+
