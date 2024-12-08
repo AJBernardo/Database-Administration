@@ -100,7 +100,6 @@ if (isset($_POST['btnMute'])) {
                                             </div>
 
 
-
                                             <div class="col-4 col-sm-3 col-md-4 col-xl-3 p-0 d-flex justify-content-center">
 
                                                 <button type="button" class="btn btn-danger btn-unfriend" data-bs-toggle="modal"

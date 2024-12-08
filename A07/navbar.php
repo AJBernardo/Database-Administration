@@ -2,7 +2,7 @@
 include('connect.php');
 session_start();
 
-$_SESSION['requesterID'] = 11;
+$_SESSION['requesterID'] =11;
 $profilePicQuery = "SELECT profilePicture FROM userinfo WHERE userInfoID = {$_SESSION['requesterID']}";
 $data = executeQuery($profilePicQuery);
 ?>
