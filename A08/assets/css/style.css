@@ -10,7 +10,7 @@ body{
 
 .filters{
     background-color: #FF7F7F;
-    height: 100%;
+    height: 85vh;
 }
 
 .table-scroll{
@@ -39,4 +39,20 @@ body{
 .fields{
     background-color: #800000 !important;
     color: white !important;
+}
+
+.btn-submit{
+    background-color: #800000;
+    color: white;
+}
+
+.btn-submit:hover{
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 576px){
+    .button-pad{
+       margin-top: 10px;
+    }
 }
